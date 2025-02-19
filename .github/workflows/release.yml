@@ -28,5 +28,4 @@ jobs:
       - name: Create Release
         uses: ncipollo/release-action@v1
         with:
-          artifacts: "dist/*.tar.gz"
           token: ${{ secrets.GITHUB_TOKEN }}
